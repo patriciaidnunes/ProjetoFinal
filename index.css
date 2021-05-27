@@ -4,11 +4,16 @@ height: 100%;
 margin:0;
 background-color:#efefef;
 font-family: 'Farro', sans-serif;
+background-image: url("./ux-store-jJT2r2n7lYA-unsplash.jpg");
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .header {
     
-background-color:#efefef;
+    background-image: url("./ux-store-jJT2r2n7lYA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -59,12 +64,19 @@ width: 100%;
 
 .text-box{
 width:90% ;
-color:black;
-position: absolute;
+margin-left: auto;
+margin-right: auto;
+padding: 20;
+border-radius: 100px;
+color:white;
+/*position: absolute;
 top:50%;
 left:50%;
 transform: translate(-50%,-50%);
+*/
 text-align: center;
+
+background-color: rgba(101,131, 122, 0.8);
 }
 
 .text-box h1 {
@@ -74,5 +86,4 @@ font-size: 62px;
 .text-box p {
 margin: 10 px 0 40px;
 font-size: 14 px;
-
 }
